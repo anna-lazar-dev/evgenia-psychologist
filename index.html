@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Психолог — частная практика</title>
+  <meta name="description" content="Сайт психолога: консультации, информация об образовании, услуги, форма записи и контакты." />
+  <!-- Подключаем внешний CSS файл -->
+  <link rel="stylesheet" href="style.css">>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="brand">
+        <span class="brand__title">Евгения Сахацкая</span>
+        <span class="brand__subtitle">Психологическая поддержка и консультации</span>
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#top">Главная</a>
+        <a href="#about">Обо мне</a>
+        <a href="#services">Услуги</a>
+        <a href="#contacts">Контакты</a>
+        <a class="btn btn--primary" href="#booking">Записаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Герой с анимацией появления -->
+    <section class="hero animate-on-load">
+      <div class="container hero__grid">
+        <div class="card hero__content">
+          <div class="eyebrow">Частная практика · Онлайн</div>
+          <h1>Помогаю справляться с тревогой и находить внутреннюю опору</h1>
+          <p>
+            Бережное психологическое сопровождение для взрослых, которые хотят лучше понимать себя,
+            проживать сложные чувства без давления и двигаться к более устойчивой и спокойной жизни.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#booking">Записаться на консультацию</a>
+            <a class="btn btn--ghost" href="#services">Подробнее об услугах</a>
+          </div>
+        </div>
+
+        <div class="photo">
+          <img src="img\photo1705676188.jpeg" alt="Психолог">
+            </div>
+              <strong>Клинический психолог</strong>
+              <span>Поддержка в кризисных ситуациях, работе с тревогой и эмоциональным выгоранием</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <h2>Обо мне</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="card panel stack">
+            <div>
+              <h3>Мой подход</h3>
+              <p>
+                Я клинический психолог с высшим образованием. Специализируюсь на эмоциональных и поведенческих расстройствах, кризисных ситуациях и переживаниях занимающих особое место внутри человека. 
+                В своей практической работе использую классическое психологическое консультирование, гештальт-подход, интегративный подход.
+                Моя цель - создать безопасное пространство, где каждый может быть услышанным и понятым, без осуждения и критики.
+            </div>
+            <div>
+              <h3>С какими запросами работаю</h3>
+              <ul class="list">
+                <li>тревожность, внутреннее напряжение, эмоциональная нестабильность;</li>
+                <li>кризисные состояния, утраты, сложные жизненные перемены;</li>
+                <li>трудности в отношениях, личные границы, самооценка;</li>
+                <li>усталость, выгорание, потеря опоры и смысла.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card panel stack">
+            <div>
+              <h3>Образование</h3>
+              <ul class="list">
+                <li><strong>Белгородский государственный национальный исследовательский университет</strong> — Психологическое обеспечение в чрезвычайных и экстремальных ситуациях.</li>
+                <li><strong>Институт реабилитации и здоровья человека ННГУ им. Н.И.Лобачевского при активном участии ФПО ПСПбГМУ им.академика И.П. Павлова</strong> — Эргореабилитация (эрготерапия).</li>
+                <li><strong>Московский институт гештальта и психодрамы</strong> — Введение в гештальт-консультирование и гештальт-терапию. Контакт с собой и другими.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Сертификаты</h3>
+              <div class="certs">
+                <a href="img/Диплоп Клиническая психология.jpg" target="_blank">
+                  <img src="img/Диплоп Клиническая психология.jpg" class="cert interactive-card" alt="Диплом">
+                </a>
+
+                <a href="img/БОС 1.1_page-0001.jpg" target="_blank">
+                  <img src="img/БОС 1.1_page-0001.jpg" class="cert interactive-card" alt="Удостоверение">
+                </a>
+
+                <a href="img/Гештальт терапия1.1_page-0001.jpg" target="_blank">
+                  <img src="img/Гештальт терапия1.1_page-0001.jpg" class="cert interactive-card" alt="Сертификат">
+                </a>
+
+                <a href="img/Гештальт терапия1.2_page-0001.jpg" target="_blank">
+                  <img src="img/Гештальт терапия1.2_page-0001.jpg" class="cert interactive-card" alt="Сертификат 2">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-head">
+          <h2>Услуги</h2>
+        </div>
+
+        <div class="services__grid">
+          <!-- Добавил интерактивности карточкам услуг -->
+          <article class="card service interactive-card">
+            <h3>Индивидуальная консультация</h3>
+            <p>
+              Классическое консультирование online с выявлением волнующих тем и работой, продолжительность консультации 60 мин.
+            </p>
+            <div class="price">2 000 ₽</div>
+            <a class="btn btn--ghost" href="#booking">Записаться →</a>
+          </article>
+
+          <article class="card service interactive-card">
+            <h3>Групповая работа</h3>
+            <p>
+              Работа в группе на актуальные психологические темы. Продолжительность 60 мин.
+            </p>
+            <div class="price">По договоренности</div>
+            <a class="btn btn--ghost" href="#booking">Записаться →</a>
+          </article>
+
+          <article class="card service interactive-card">
+            <h3>Индивидуальное эрготерапевтическое занятие</h3>
+            <p>
+              Диагностическая и практическая работа по запросу. Продолжительность 50 мин.
+            </p>
+            <div class="price">По договоренности</div>
+            <a class="btn btn--ghost" href="#booking">Записаться →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking">
+      <div class="container booking">
+        <div class="card booking__info">
+          <div class="section-head" style="margin-bottom: 12px;">
+            <h2>Запись на консультацию</h2>
+          </div>
+          <div class="info-points">
+            <div class="info-point"><strong>Формат:</strong> онлайн</div>
+            <div class="info-point"><strong>Длительность:</strong> 60 минут</div>
+            <div class="info-point"><strong>Ответ:</strong> обычно в рабочее время</div>
+          </div>
+        </div>
+
+        <div class="card booking__form">
+          <form id="contactForm">
+            <div class="grid-2">
+              <label>
+                Ваше имя
+                <input type="text" name="name" placeholder="Например, Иван" required />
+              </label>
+              <label>
+                Телефон или Email
+                <input type="text" name="contact" placeholder="+7 (...) или email@example.com" required />
+              </label>
+            </div>
+
+            <div class="grid-2">
+              <label>
+                Удобная дата
+                <input type="date" name="date" required />
+              </label>
+              <label>
+                Удобное время
+                <input type="time" name="time" required />
+              </label>
+            </div>
+
+            <label>
+              Услуга
+              <select name="service" required>
+                <option value="">Выберите вариант</option>
+                <option>Индивидуальная консультация</option>
+                <option>Групповая работа</option>
+                <option>Эрготерапевтическое занятие</option>
+              </select>
+            </label>
+
+            <label>
+              Комментарий
+              <textarea name="comment" placeholder="Кратко опишите запрос или удобный способ связи"></textarea>
+            </label>
+
+            <button class="btn btn--primary" type="submit">Отправить заявку</button>
+            <div class="success" id="successMessage">Ваша заявка отправлена. Спасибо! Я свяжусь с вами в ближайшее время.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class="container">
+        <div class="section-head">
+          <h2>Контакты</h2>
+        </div>
+
+        <div class="contacts__grid">
+  <div class="card contact-card">
+    <div class="contact-list">
+      <div>
+        <span>Телефон</span>
+        <strong><a href="tel:+79011996970">+7 (901) 199-69-70</a></strong>
+      </div>
+      <div>
+        <span>Email</span>
+        <strong><a href="mailto:evgeniasahatskaya@yandex.ru">evgeniasahatskaya@yandex.ru</a></strong>
+      </div>
+      <div>
+        <span>Город</span>
+        <strong>Москва</strong>
+      </div>
+    </div>
+
+    <div class="socials">
+      <a href="https://t.me/sakhatskaya_ergo" class="interactive-link" target="_blank">Telegram</a>
+      <a href="https://www.instagram.com/encantro" class="interactive-link" target="_blank">Instagram</a>
+      <a href="https://vk.com/encantro" class="interactive-link" target="_blank">VK</a>
+    </div>
+  </div>
+
+  <div class="card schedule-card">
+    <div class="schedule">
+      <div>
+        <span>Понедельник — Пятница</span>
+        <strong>10:00 — 20:00</strong>
+      </div>
+      <div>
+        <span>Суббота</span>
+        <strong>11:00 — 16:00</strong>
+      </div>
+      <div>
+        <span>Воскресенье</span>
+        <strong>Выходной</strong>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="container">
+      <div class="card footer">
+        <div>
+          <strong>Евгения Сахацкая</strong>
+          <p>Профессиональная психологическая помощь</p>
+        </div>
+        <p>© 2026. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Подключаем внешний JS файл -->
+  <script src="script.js"></script>>
+</body>
+</html>
