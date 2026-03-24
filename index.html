@@ -121,7 +121,7 @@
         </div>
 
         <div class="services__grid">
-          <!-- Добавил интерактивности карточкам услуг -->
+          <!-- Добавила интерактивности карточкам услуг -->
           <article class="card service interactive-card">
             <h3>Индивидуальная консультация</h3>
             <p>
@@ -166,7 +166,14 @@
         </div>
 
         <div class="card booking__form">
-          <form id="contactForm">
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/mjganpgz"
+            method="POST"
+          >
+          <input type="hidden" name="_replyto" value="evgeniasahatskaya@yandex.ru">
+          <input type="hidden" name="_subject" value="Новая заявка с сайта психолога">
+
             <div class="grid-2">
               <label>
                 Ваше имя
@@ -272,6 +279,6 @@
   </footer>
 
   <!-- Подключаем внешний JS файл -->
-  <script src="script.js"></script>>
+  <script src="script.js"></script>
 </body>
 </html>
